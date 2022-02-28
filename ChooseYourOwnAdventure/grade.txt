@@ -1,0 +1,338 @@
+Grading at 12/07/2021:20:21:15.687296
+For commit ID 370b1f658f84b4ae18220c31ec10118b294ff35b
+Grading at Wed Dec  8 04:20:07 CST 2021
+
+=========================================================================
+Step 1
+
+Checking that cyoa-step1 compiles
+rm -f *~ cyoa-step1 cyoa-step2 cyoa-step3 cyoa-step4 cyoa-step1.o cyoa-step2.o cyoa-step3.o cyoa-step4.o Exceptions.o Page.o Directory.o
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c cyoa-step1.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Exceptions.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Page.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Directory.cpp
+g++ -o cyoa-step1 cyoa-step1.o Exceptions.o Page.o Directory.o
+rm Exceptions.o Page.o Directory.o cyoa-step1.o
++-----------------------------------------------------------------------+
+Test case 1
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 2
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 3
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 4
+Your program did not indicate a failure case
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 5
+Your program did not indicate a failure case
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 6
+Your program did not indicate a failure case
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 7
+Your program did not indicate a failure case
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 8
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 9
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 10
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 11
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 12
+Your file matched the expected output
+                                                         [2/2]
+
+Step 1 total                                             [12.0/20]
+
+=========================================================================
+Step 2
+
+Checking that cyoa-step2 compiles
+rm -f *~ cyoa-step1 cyoa-step2 cyoa-step3 cyoa-step4 cyoa-step1.o cyoa-step2.o cyoa-step3.o cyoa-step4.o Exceptions.o Page.o Directory.o
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c cyoa-step2.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Exceptions.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Page.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Directory.cpp
+g++ -o cyoa-step2 cyoa-step2.o Exceptions.o Page.o Directory.o
+rm Exceptions.o cyoa-step2.o Page.o Directory.o
++-----------------------------------------------------------------------+
+Test case 13
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 14
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 15
+Valgrind reported memory errors
+Your program did not indicate a failure case
+  But it did print to stderr
+                                                         [.70/2]
++-----------------------------------------------------------------------+
+Test case 16
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 17
+Your program did not indicate a failure case
+  But it did abort and print to stderr
+                                                         [.7/1]
++-----------------------------------------------------------------------+
+Test case 18
+Your program did not indicate a failure case
+  But it did print to stderr
+                                                         [.5/1]
++-----------------------------------------------------------------------+
+Test case 19
+Your program did not indicate a failure case
+  But it did print to stderr
+                                                         [.5/1]
++-----------------------------------------------------------------------+
+Test case 20
+Your program did not indicate a failure case
+  But it did print to stderr
+                                                         [.5/1]
++-----------------------------------------------------------------------+
+Test case 21
+Your program did not indicate a failure case
+  But it did abort and print to stderr
+                                                         [1.4/2]
++-----------------------------------------------------------------------+
+Test case 22
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 23
+Valgrind reported memory errors
+Line_54_did_not_match
+Line_55_did_not_match
+Your file did not match the expected ouput
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 24
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 25
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 26
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 27
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 28
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 29
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 30
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 31
+Your file matched the expected output
+                                                         [2/2]
+
+Step 2 total                                             [24.30/30]
+
+=========================================================================
+Step 3
+
+Checking that cyoa-step3 compiles
+rm -f *~ cyoa-step1 cyoa-step2 cyoa-step3 cyoa-step4 cyoa-step1.o cyoa-step2.o cyoa-step3.o cyoa-step4.o Exceptions.o Page.o Directory.o
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c cyoa-step3.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Exceptions.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Page.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Directory.cpp
+g++ -o cyoa-step3 cyoa-step3.o Exceptions.o Page.o Directory.o
+rm Exceptions.o cyoa-step3.o Page.o Directory.o
++-----------------------------------------------------------------------+
+Test case 32
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 33
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 34
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 35
+Your program did not indicate a failure case
+  But it did abort and print to stderr
+                                                         [.35/0.5]
++-----------------------------------------------------------------------+
+Test case 36
+Your program did not indicate a failure case
+  But it did print to stderr
+                                                         [.25/0.5]
++-----------------------------------------------------------------------+
+Test case 37
+Your program did not indicate a failure case
+  But it did print to stderr
+                                                         [.25/0.5]
++-----------------------------------------------------------------------+
+Test case 38
+Your program did not indicate a failure case
+  But it did print to stderr
+                                                         [.25/0.5]
++-----------------------------------------------------------------------+
+Test case 39
+Your file matched the expected output
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 40
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 41
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 42
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 43
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 44
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 45
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 46
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 47
+Your file matched the expected output
+                                                         [2/2]
+
+Step 3 total                                             [19.10/20]
+
+=========================================================================
+Step 4
+
+Checking that cyoa-step4 compiles
+rm -f *~ cyoa-step1 cyoa-step2 cyoa-step3 cyoa-step4 cyoa-step1.o cyoa-step2.o cyoa-step3.o cyoa-step4.o Exceptions.o Page.o Directory.o
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c cyoa-step4.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Exceptions.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Page.cpp
+g++ -std=gnu++11 -pedantic -Wall -Werror -ggdb3 -c Directory.cpp
+g++ -o cyoa-step4 cyoa-step4.o Exceptions.o Page.o Directory.o
+rm Exceptions.o cyoa-step4.o Page.o Directory.o
++-----------------------------------------------------------------------+
+Test case 48
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 49
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 50
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 51
+Your program did not indicate a failure case
+  But it did abort and print to stderr
+                                                         [.35/0.5]
++-----------------------------------------------------------------------+
+Test case 52
+Your program did not indicate a failure case
+  But it did print to stderr
+                                                         [.25/0.5]
++-----------------------------------------------------------------------+
+Test case 53
+Your program did not indicate a failure case
+  But it did print to stderr
+                                                         [.25/0.5]
++-----------------------------------------------------------------------+
+Test case 54
+Your program did not indicate a failure case
+  But it did print to stderr
+                                                         [.25/0.5]
++-----------------------------------------------------------------------+
+Test case 55
+Your file matched the expected output
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 56
+Your file matched the expected output
+                                                         [4/4]
++-----------------------------------------------------------------------+
+Test case 57
+Your file matched the expected output
+                                                         [4/4]
++-----------------------------------------------------------------------+
+Test case 58
+Your file matched the expected output
+                                                         [3/3]
++-----------------------------------------------------------------------+
+Test case 59
+Your file matched the expected output
+                                                         [3/3]
++-----------------------------------------------------------------------+
+Test case 60
+Your file matched the expected output
+                                                         [2/2]
+
+Step 4 total                                             [19.10/20]
+
+=========================================================================
+Code quality
+
+Abstration:    1
+Comments:      2.5
+Formatting:    3
+Others:        2
+Comments from your grader:
+Good formatting. Two potential improvements:
+1. There could also be comments inside functions in Page.cpp, and it's better 
+to delete debug output before submission instead of commenting it (e.g., line 
+61 in Directory.cpp)
+2. You wrote std::err and exit() at least four times, why not abstract them out 
+as a separate function?
+
+Quality total                                            [8.5/10]
+
+=========================================================================
+
+Overall Grade: 83
